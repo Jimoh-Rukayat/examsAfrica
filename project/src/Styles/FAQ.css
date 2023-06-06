@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.FAQ-top{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+.FAQ{
+    width: 85%;
+    color: white;
+    padding: 80px 80px;
+    line-height: 3em;
+    background-color: #002099;
+}
+.FAQ h6{
+    font-family: 'Mulish';
+    font-size: 18px;
+}
+.FAQ h3{
+    font-family: 'Clash Display Variable';
+    font-size: 40px;
+    font-weight: 500;
+}
+.FAQ p{
+    width: 60%;
+    line-height: normal;
+    padding-top: 20px;
+}
+.faq-two-grand{
+    margin-top: 50px;
+    width: 100%;
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.faq-two-parent{
+    width: 90%;
+}
+.faq-two{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.faq-two-sub{
+    width: 48%;
+    height: 120px;
+}
+.f-one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+    height: 40px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 18px;
+    margin-top: 50px;
+}
+.f-ones{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+    height: 40px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 18px;
+    margin-top: 80px;
+}
+.f-one1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+    height: 40px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 18px;
+    margin-top: 100px;
+}
+
+.f-one-sub{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    margin-top: 10px;
+    padding: 0px 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 15px;
+    font-family: 'Mulish';
+    visibility: visible;
+}
+.feed{
+    border: 1px solid #5C5C5C;
+    width: 7%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.register-book{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+.register-book-text h4{
+    text-align: center;
+    margin-top: 100px ;
+    font-size: 30px;
+    color: #1C0A00;
+    font-family: 'Clash Display Variable';
+    font-weight: 600;
+}
+.register-book-image{
+    width: 600px;
+}
+.reg-text{
+    text-align: start;
+}
+.reg-text p{
+    padding: 10px 0px;
+    font-family: 'Mulish';
+    line-height: 1.5em;
+}
+.register-book button{
+    background-color: rgb(17, 120, 255);
+    padding: 15px 15px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFFF;
+    margin-top: 10px; 
+    font-size: 15px;
+    font-family: 'Mulish'; 
+}
+
+
+
+@media screen and (max-width: 500px) {
+    .FAQ-top{
+        width: 100%;
+        height: 350px;
+        display: flex;
+        justify-content: center;
+    }
+    .FAQ{
+        width: 100%;
+        color: white;
+        padding: 30px 20px;
+        line-height: 3em;
+        background-color: #002099;
+    }
+    .FAQ p{
+        width: 100%;
+        line-height: normal;
+        padding-top: 20px;
+        font-size: 14px;
+    }
+    .FAQ h1{
+        font-size: 40px;  
+    }
+    .faq-two-parent{
+        width: 100%;
+    }
+    .faq-two{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .faq-two-sub{
+        width: 100%;
+        height: 120px;
+    }
+    .f-one{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 30px;
+        height: 40px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        font-size: 18px;
+        margin-top: 60px;
+    }
+    .f-ones{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 30px;
+        height: 40px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        font-size: 18px;
+        margin-top: 90px;
+    }
+    .f-one1{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 30px;
+        height: 40px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        font-size: 18px;
+        margin-top: 120px;
+    }
+    .register-book{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding-top: 50px;
+    }
+    .register-book-text h4{
+        text-align: center;
+        margin-top: 200px ;
+        font-size: 30px;
+        color: #5C5C5C;
+    }
+    .register-book-image{
+        width: 450px;
+        height: 200px;
+        margin: 20px 10px;
+    }
+    .reg-text p{
+        font-size: 14px;
+        width: 100%;
+    }
+    .reg-text{
+        text-align: start;
+        padding: 0px 10px;
+    }
+    .register-book button{
+        background-color: rgb(17, 120, 255);
+        padding: 10px 25px 10px 15px;
+        border-radius: 4px;
+        outline: none;
+        border: none;
+        width: 180px;
+        color: #FFFF;
+        margin-top: 10px;  
+    }
+}

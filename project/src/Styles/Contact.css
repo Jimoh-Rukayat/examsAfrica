@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contact-top{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+.contact{
+    width: 85%;
+    color: white;
+    padding: 80px 80px;
+    line-height: 3em;
+    background-color: #002099;
+}
+.contact h6{
+    font-family: 'Mulish';
+    font-size: 18px;
+}
+.contact h3{
+    font-family: 'Clash Display Variable';
+    font-size: 40px;
+    font-weight: 500;
+}
+.contact p{
+    width: 60%;
+    line-height: normal;
+    padding-top: 20px;
+}
+.contact-text{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 100px;
+    
+}
+.contact-us{
+   margin-top: 100px;
+}
+.contact-us h5{
+    font-family: "Mulish";
+   color: #212529;
+   font-size: 30px;
+   font-weight: 800;
+}
+.contact-us p{
+    padding-top: 10px;
+    line-height: 1.5em;
+    font-family: "Mulish";
+   color: #212529;
+   font-weight: 400;
+   width: 70%;
+}
+.location{
+    padding: 30px 30px;
+    line-height: 2.5em;
+    color: #212529;
+    font-family: "Mulish";
+}
+.location h4{
+    font-size: 20px;
+}
+.location p{
+    width: 60%;
+    line-height: normal;
+    font-family: "Mulish";
+}
+.location{
+    border-left: 4px solid #002099;  
+}
+.contact-form{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+.contact-form-name{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+#first{
+    width: 48%;
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    line-height: 2;
+}
+.first input, textarea{
+    border: none;
+    border-bottom: 1px solid #e0e0e0;
+    outline: none;
+    width: 80%;
+}
+.contact-button{
+    background-color: #002099;
+    color: #FFFF;
+    padding: 10px;
+    outline: none;
+    border: none;
+    width: 150px;
+    margin-top: 50px;
+    font-size: 15px;
+}
+.contact-bottom{
+    height: 200px;
+    position: relative;
+    left: 150px;
+    right: 0;
+    top: 50px;
+    bottom: 0px;
+    width: 80%;
+   background-color: #00070F; 
+}
+.sub-bottom{
+    color: #FFFF;
+    padding: 50px 50px;
+    font-family: "Mulish";
+}
+.sub-bottom h3{
+    font-family: "Mulish"; 
+    font-size: 25px; 
+}
+.sub-bottom p{
+    line-height: normal;
+    padding-top: 20px;
+    font-size: 16px;
+    font-family: "Mulish";
+}
+@media screen and (max-width: 500px) {
+    .contact-top{
+        width: 100%;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        margin-top: 0px;
+    }
+    .contact{
+        width: 100%;
+        color: white;
+        padding: 50px 50px;
+        line-height: 3em;
+        background-color: #002099;
+        margin-top: 0px;
+    }
+    .contact p{
+        width: 100%;
+        line-height: normal;
+        padding-top: 20px;
+    }
+    .contact-bottom{
+        height: 200px;
+        position: relative;
+        left: 20px;
+        right: 0px;
+        top: 50px;
+        bottom: 0px;
+        width: 92%;
+       background-color: #00070F;  
+       margin: 0px 200px 0px 0px;
+    }
+    .contact-form-name{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+         margin: 0px 250px 0px 0px;
+    }
+    .contact-us p{
+        padding-top: 10px;
+        line-height: 1.5em;
+        font-family: "Mulish";
+       color: #212529;
+       font-weight: 400;
+       width: 100%;
+    }
+    .contact-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-left: 30px;
+        font-family: "Mulish";
+       color: #212529;
+    }
+    .sub-bottom{
+        color: #FFFF;
+        padding: 30px 30px;   
+    }
+    .sub-bottom p{
+        line-height: normal;
+        padding-top: 20px;
+        width: 100%;
+        font-size: 18px;
+    }
+    
+    .contact-form{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 50px 50px;
+    }
+    #first{
+        width: 100%;
+    }
+    .first{
+        display: flex;
+        flex-direction: column;
+        line-height: 2;
+        width: 100%;
+    }
+    .first input, textarea{
+        border: none;
+        border-bottom: 1px solid #e0e0e0;
+        outline: none;
+        width: 90%;
+    }
+}
+@media screen and (max-width: 700px) {
+    .contact-top{
+        width: 100%;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+       
+    }
+    .contact{
+        width: 100%;
+        color: white;
+        padding: 50px 50px;
+        line-height: 3em;
+        background-color: #002099;
+    }
+    .contact p{
+        width: 100%;
+        line-height: normal;
+        padding-top: 20px;
+        font-size: 15px;
+    }
+    .contact-bottom{
+        height: 200px;
+        position: relative;
+        left: 20px;
+        right: 0px;
+        top: 50px;
+        bottom: 0px;
+        width: 92%;
+       background-color: #00070F;  
+       margin: 0px 200px 0px 0px;
+    }
+    .contact-form-name{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+         margin: 0px 300px 0px 0px;
+    }
+    .contact-us p{
+        padding-top: 10px;
+        line-height: 1.5em;
+        font-family: "Mulish";
+       color: #212529;
+       font-weight: 400;
+       width: 100%;
+    }
+    .contact-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-left: 30px;
+        font-family: "Mulish";
+       color: #212529;
+    }
+    .sub-bottom{
+        color: #FFFF;
+        padding: 30px 30px;   
+    }
+    .sub-bottom p{
+        line-height: normal;
+        padding-top: 20px;
+        width: 100%;
+        font-size: 18px;
+    }
+    .contact-form{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 50px 50px;
+        margin: 0px 100px 0px 0px;
+    }
+    #first{
+        width: 100%;
+    }
+    .first{
+        display: flex;
+        flex-direction: column;
+        line-height: 2;
+        width: 100%;
+    }
+    .first input, textarea{
+        border: none;
+        border-bottom: 1px solid #e0e0e0;
+        outline: none;
+        width: 100%;
+    }
+}

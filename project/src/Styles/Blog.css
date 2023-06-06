@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,600;1,1000&display=swap');
+@font-face {
+    font-family: 'Clash Display Variable';
+    src: url("./ClashDisplay-Semibold.otf");
+ }
+ @font-face {
+    font-family: 'Clash Display Variable';
+    src: url("./ClashDisplay-Variable.ttf");
+ }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.blog-top{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+}
+.blog{
+    width: 85%;
+    color: white;
+    padding: 80px 80px;
+    line-height: 3em;
+    background-color: #002099;
+}
+.blog h6{
+    font-family: 'Mulish';
+    font-size: 18px;
+}
+.blog h3{
+    font-family: 'Clash Display Variable';
+    font-size: 40px;
+    font-weight: 500;
+}
+.blog p{
+    width: 50%;
+    line-height: normal;
+    padding-top: 20px;
+    font-family: 'Mulish';
+    font-size: 16px;
+    font-weight: 501;
+}
+.grand-book{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   margin-top: 100px;
+}
+
+.book{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+.book-one{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    
+}
+.book-one button, .book-two button{
+    background-color: rgb(17, 120, 255);
+    padding: 15px 15px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    width: 180px;
+    color: #FFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: 'Mulish'; 
+}
+.book-one img{
+    width: 550px;
+    height: 300px;
+}
+.text{
+    text-align: start;
+    padding: 10px;
+}
+.text p{
+    padding: 10px 0px;
+    font-family: 'Mulish';
+    line-height: 1.2em;
+}
+.book-two{
+ display: flex;
+ justify-content: start;
+}
+.help{
+    line-height: 2em;
+    font-size: 20px;
+}
+.helps{
+    font-size: 20px;
+}
+.helps {
+     line-height: 1.5em;
+}
+@media screen and (max-width: 500px) {
+    .blog-top{
+        width: 100%;
+        height: 200px;
+        display: flex;
+        justify-content: center; 
+        margin-top: 30px;
+    }
+    .blog{
+        width: 100%;
+        color: white;
+        padding: 50px 50px;
+        line-height: 3em;
+        background-color: #002099;
+       
+    }
+    .blog p{
+        width: 110%;
+        line-height: normal;
+        padding-top: 20px;
+    }
+    .blog h1{
+        font-size: 35px;
+        width: 90%;
+    }
+    .grand-book{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+       margin-top: 200px;
+    }
+    
+    .book{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+    .book-one{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 50px;  
+    }
+    .book-one img, .book-two img{
+        width: 100%;
+        height: 200px;
+    }
+    .text{
+        text-align: start;
+    }
+    .text p{
+        padding: 10px 0px;
+        width: 100%;
+        line-height: normal;
+    }
+    .book-two{
+        display: flex;
+        justify-content: start;
+       }
+       .help{
+           line-height: 2em;
+           font-size: 20px;
+       }
+       .helps{
+           font-size: 20px;
+       }
+       .helps {
+            line-height: 1.5em;
+       }
+}
+@media screen and (max-width: 700px) {
+    .blog-top{
+        width: 100%;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .blog{
+        width: 100%;
+        color: white;
+        padding: 50px 50px;
+        line-height: 3em;
+        background-color: #002099;
+        margin-top: 25px;
+    }
+    .blog p{
+        width: 110%;
+        line-height: normal;
+        padding-top: 20px;
+    }
+    .blog h1{
+        font-size: 35px;
+        width: 90%;
+    }
+    .grand-book{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+       margin-top: 200px;
+    }
+    
+    .book{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+    .book-one{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 50px;  
+    }
+    .book-one img, .book-two img{
+        width: 100%;
+        height: 200px;
+    }
+    .text{
+        text-align: start;
+        padding: 0px 10px;
+    }
+    .text p{
+        padding: 10px 0px;
+        font-family: 'Mulish';
+        line-height: 1.5em;
+        width: 100%;
+        font-size: 13px;
+    }
+    .book-two{
+        display: flex;
+        justify-content: start;
+       }
+       .help{
+           line-height: 2em;
+           font-size: 20px;
+       }
+       .helps{
+           font-size: 20px;
+       }
+       .helps {
+            line-height: 1.5em;
+       }
+}

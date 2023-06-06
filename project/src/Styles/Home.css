@@ -1,0 +1,955 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap');
+ @font-face {
+    font-family: 'Clash Display Variable';
+    src: url("./ClashDisplay-Semibold.otf");
+ }
+ @font-face {
+    font-family: 'Clash Display Variable';
+    src: url("./ClashDisplay-Variable.ttf");
+ }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top-text{
+    display: flex;
+    justify-content: space-evenly;
+}
+.texts h1{
+    font-family: 'Clash Display Variable';
+    font-weight: 600;
+}
+.text-one{
+    width: 110%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 50px;
+    color: #002099; 
+}
+.text-two{
+    width: 110%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 50px;
+    color: #002099;
+}
+.text-three{
+    width: 120%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 50px;
+    color: #002099;    
+}
+.text-three-span{
+    width: 150%;
+}
+.text-three-span button{
+    width: 100px;
+    background-color: #FFFFFF;
+    color: #676e82;
+    font-size: 15px;
+    border: 1px solid #676e82;
+    border-radius: 10px;
+    padding: 8px 8px;
+   font-family: 'Mulish';
+   margin-left: 10px;
+}
+.line{
+    border-bottom: 1px solid #5c5c5c;
+    width: 20%;
+    margin-top: 20px;
+}
+.para-text{
+    width: 50%;
+    margin: 0px 70px;
+    line-height: 1.6em;
+    font-size: 20px;
+}
+.para-text p{
+    font-family: 'Mulish';
+    color: #212529;
+    font-size: 20px;
+    font-weight: 400;
+}
+.home-register{
+    padding: 10px 10px;
+    width: 150px;
+    border-radius: 5px;
+    border: 2px solid  #002099;
+    font-size: 16px;
+    background-color: #002099;
+    color: #FFFF;
+    margin: 20px 10px;
+    font-family: "Mulish";
+    font-weight: 600
+}
+.home-login{
+    padding: 10px 10px;
+    width: 150px;
+    border-radius: 5px;
+    border: 1px solid #002099;
+    font-size: 16px;
+    background-color: #FFFF;
+    color: #002099;
+    margin-left: 0px;
+    font-family: "Mulish";
+    font-weight: 600;
+}
+.bottom-text{
+    width: 100%;
+    background-color: #002099;
+    height: 230px;
+    padding: 50px;
+    margin-top: 50px;
+}
+.inner-bottom{
+    width: 80%;
+    height: 120px;
+    background-color: #FFFF;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+}
+.symbols{
+    display: flex;
+    width: 65% ;
+    justify-content: space-around;
+    align-items: center;
+    font: "Clash Display Variable";
+}
+.symbol{
+    display: flex;
+    width: 75% ;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 10px;
+}
+.notebook, .heart, .dollar{
+    border-left: 4px solid #002099;
+    height: 53px;
+    text-align: center;
+}
+.notebook p, .heart p, .dollar p, .past-que p{
+    font-size: 13px;
+    font-family: 'Mulish', sans-serif;
+    margin-left: 50px;
+    color: #676e82;
+}
+.notebook h3, .heart h3, .dollar h3, .past-que h3{
+    color: #002099;
+}
+.reason h2{
+    text-align: center;
+    margin-top: 50px;
+    font: "Clash Display Variable";
+    font-weight: 600;
+    font-size: 32px;
+    color:  #0B2239;
+}
+.category{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 50px 0px 0px 0px;
+    color: #000513;
+    font-family: 'Mulish';
+}
+.category-text, .practise-text, .subject-text{
+    width: 25%;
+    font-family: 'Mulish';
+}
+.category-text h3, .subject-text h3, .practise-text h3{
+    font-size: 30px;
+    font-family: 'Mulish';
+    font-weight: 400;
+}
+.category-text p, .subject-text p, .practise-text p{
+    padding-top: 10px;
+    line-height: 1.5em;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'Mulish';
+    color: #000513;
+    font-weight: 500;
+}
+.subject{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 50px 0px 0px 0px;
+    font-family: 'Mulish';
+    font-size: 30px;
+}
+.practise{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 50px 0px 0px 0px;
+    font-family: 'Mulish';
+}
+.bottom-texts h1{
+   color: #FFFF;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Clash Display Variable';
+    font-weight: 500;
+}
+.in-bottom-text{
+    width: 100%;
+    height: 120px;
+    border-radius: 20px;
+    background-color: #1D3797;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+    color: #FFFF;
+    font-size: 20px;
+}
+.in-bottom-text p{
+    font-family: 'Clash Display Variable';
+    font-weight: 500;
+}
+.text-icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.text-icons a{
+    line-height: normal;
+    text-align: end;
+    color: #FFFF;
+    font-size: 18px;
+    text-decoration: underline;
+}
+.apple-store, .play-store, .tele, .whatsapp {
+    display: flex;
+    color: #FFFF;
+    font-size: 25px;
+    padding: 10px ;
+}
+.apple-store, .play-store, .tele, .whatsapp{
+    border-left: 4px solid #FFFF;
+    height: 70px;
+}
+.web{
+    display: flex;
+    color: #FFFF;
+    font-size: 25px;
+}
+.apple-store p, .play-store p, .tele p, .whatsapp p, .web p{
+        margin-left: 15px;
+}
+.apple-store a, .play-store a, .tele a, .whatsapp a, .web a{
+     font-size: 12px;
+     text-align: start;
+     margin-left: 15px;
+}
+.bottom-texts{
+    width: 100%;
+    background-color: #002099;
+    height: 250px;
+    padding: 30px;  
+    margin-top: 150px;
+}
+.examsAfrica{
+    text-align: center;
+    margin-top: 100px;
+}
+.examsAfrica h1{
+    width: 30%;
+    margin-left: 500px;
+    padding-bottom: 10px;
+    color: #0b2239;
+    font-size: 32px;
+    font-family: 'Clash Display Variable';
+    font-weight: 620;
+}
+.nice img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: 50px 300px;
+    position: relative;
+}
+.nice-video{
+    position: relative;
+    left: 600px;
+    right: 0;
+    bottom: 220px;
+    font-size: 18px;
+    color: #FFFF;
+    font-weight: 500;
+    font-family: "Mulish";
+    border: 1px solid;
+    text-align: center;
+    width: 250px;
+    padding: 15px;
+    border-radius: 5px;
+}
+.examsAfrica p{
+    color: #212529;
+    font-family: 'Mulsih';
+    font-size: 20px;
+}
+.subjects-text{
+    text-align: center;
+    margin-top: 200px;
+    
+}
+.subjects-text p{
+    font-size: 20px;
+}
+.subjects-text h1{
+    color: #00070F;
+    line-height: 2em;
+}
+.past-questions{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 25px;
+}
+.neco-maths{
+    background-color: white;
+    box-shadow: 0px 4px 20px rgba(11, 34, 57, 0.14);
+    border-radius: 4px;
+}
+.footer{
+    height: 450px;
+    background-color: #00070F;
+    margin-top: 30px;
+    color: #FFFF;
+}
+.helps{
+    margin-top: 20px;
+}
+.footer-text{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   padding-top: 50px;
+}
+.logo-text{
+   text-align: center;
+   margin-top: 50px;
+}
+.logo-text p{
+    width: 65%;
+    font-size: 15px;
+    margin-left: 300px;
+    line-height: 1.5em;
+    font-family: 'Mulish';
+    font-size: 16px;
+}
+.socials{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 500px;
+    width: 10%;
+}
+.linked, .twitter, .face, .insta{
+    border: 2px solid;
+    border-radius: 500px;
+    padding: 5px;
+    font-size: 15px;
+    height: 30px;
+    margin-left: 50px;
+}
+.copyright{
+    background-color: #002099;
+    height: 80px;
+    color: #FFFF;
+    padding: 30px 70px;
+    font-family: 'Mulish';
+    font-weight: 400;
+}
+@media screen and (max-width: 500px) {
+    .top-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-top: 20px;
+    }
+    .texts h1{
+        font-family: 'Clash Display Variable';
+        font-weight: 600;
+    }
+    .text-one{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 30px;
+        color: #002099; 
+    }
+    .text-two{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 30px;
+        color: #002099;
+    }
+    .text-three{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        color: #002099;    
+    }
+    .text-one img, .text-two img, .text-three img{
+        width: 100px;
+        height: 90px;
+    }
+    .text-three h1{
+        text-align: center;
+        font-size: 100px;
+        width: 100%;
+    }
+    .text-three-span button{
+        background-color: #FFFFFF;
+        color: #676e82;
+        font-size: 15px;
+        border: 1px solid #676e82;
+        border-radius: 10px;
+        position: relative;
+        left: 200px;
+    }
+    .home-image{
+        display: none;
+    }
+    .para-text{
+        width: 100%;
+        margin: 50px 9px;
+        line-height: 1.5em;
+        font-size: 15px;
+    }
+    .para-text p{
+        font-family: 'Mulish';
+        color: #212529;
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .home-register{
+        padding: 10px 10px;
+        width: 150px;
+        border-radius: 5px;
+        border: 2px solid  #002099;
+        font-size: 16px;
+        background-color: #002099;
+        color: #FFFF;
+        margin: 20px 10px;
+        font-family: "Mulish";
+        font-weight: 600
+    }
+    .home-login{
+        padding: 10px 10px;
+        width: 150px;
+        border-radius: 5px;
+        border: 1px solid #002099;
+        font-size: 16px;
+        background-color: #FFFF;
+        color: #002099;
+        margin-left: 0px;
+        font-family: "Mulish";
+        font-weight: 600;
+    }
+    .bottom-text{
+            width: 100%;
+            background-color: #002099;
+            height: 450px;
+            padding: 50px; 
+    }
+    .inner-bottom{
+        width:70%;
+        height: 350px;
+        background-color: #FFFF;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .notebook, .heart, .dollar{
+        border-left: none;
+    }
+    .notebook, .heart, .past-que{
+        border-bottom: 3px solid #002099;
+        height: 53px;
+        text-align: center;
+    }
+    .reason h2{
+        text-align: center;
+        margin-top: 50px;
+        font: "Clash Display Variable";
+        font-weight: 600;
+        font-size: 32px;
+        color:  #0B2239;
+    }
+    .category{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 50px 0px 0px 0px;
+        color: #000513;
+        font-family: 'Mulish';
+    }
+    .category-text, .practise-text, .subject-text{
+        width: 90%;
+        font-family: 'Mulish';
+        padding: 30px 30px;
+    }
+    .category-text h3, .subject-text h3, .practise-text h3{
+        font-size: 20px;
+        font-family: 'Mulish';
+        font-weight: 800;
+    }
+    .category-text p, .subject-text p, .practise-text p{
+        padding-top: 10px;
+        line-height: 1.5em;
+        font-weight: 400;
+        font-size: 15px;
+        font-family: 'Mulish';
+        color: #000513;
+        font-weight: 500;
+    }
+    .subject{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 50px 0px 0px 0px;
+        font-family: 'Mulish';
+    }
+    .subject img{
+        width: 90%;
+        margin-left: 20px;
+    }
+    .practise{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 50px 0px 0px 0px;
+        font-family: 'Mulish';
+    }
+    .bottom-texts h1{
+        color: #FFFF;
+         text-align: center;
+         margin-bottom: 20px;
+         font-family: 'Clash Display Variable';
+         font-weight: 500;
+         margin-top: 30px;
+     }
+     .in-bottom-text{
+        width: 70%;
+        height: 500px;
+        border-radius: 20px;
+        background-color: #1D3797;
+        display: flex;
+        justify-content: start;
+        flex-direction: column;
+        align-items: start;
+        margin: 0 auto;
+        color: #FFFF;
+     }
+     .in-bottom-text p{
+         font-family: 'Clash Display Variable';
+         font-weight: 500;
+     }
+     .bottom-texts{
+        width: 100%;
+        background-color: #002099;
+        height: 700px;
+        padding: 30px;  
+    }
+    .apple-store, .play-store, .tele, .whatsapp {
+        display: flex;
+        color: #FFFF;
+        font-size: 20px;
+        padding: 10px ;
+    }
+    .apple-store, .play-store, .tele, .whatsapp{
+        border-left: none;
+    }
+    .apple-store, .play-store, .tele, .web{
+        border-bottom: 4px solid #FFFF;
+        height: 400px; 
+    }
+    .text-icons{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 100px;
+        font-size: 15px;
+    }
+    .text-icons a{
+        line-height: normal;
+        text-align: end;
+        color: #FFFF;
+        font-size: 18px;
+        text-decoration: underline;
+    }
+    .examsAfrica{
+        text-align: center;
+        margin-top: 100px;
+    }
+    .examsAfrica h1{
+        width: 100%;
+        margin: auto;
+        padding-bottom: 10px;
+        color: #0b2239;
+        font-size: 35px;
+        font-family: 'Clash Display Variable';
+        font-weight: 620;
+    }
+    .nice img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        margin: auto;
+        padding-top: 50px;
+    }
+    .footer{
+        height: 550px;
+        background-color: #00070F;
+        margin-top: 100px;
+        color: #FFFF;
+    }
+    .footer-text{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+       padding-top: 50px;
+       width: 100%;
+    }
+    .logo-text{
+        text-align: center;
+     }
+     .logo-text p{
+         width: 90%;
+         font-size: 15px;
+         margin: auto;
+         line-height: 1.5em;
+     }
+     .socials{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 30px 500px;
+        margin: auto;
+        padding-top: 20px;
+        width: 50%;
+    }
+    .copyright{
+        background-color: #002099;
+        height: 80px;
+        color: #FFFF;
+        padding: 20px 30px;
+        width: 100%;
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .top-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-top: 20px;
+    }
+    .texts h1{
+        font-family: 'Clash Display Variable';
+        font-weight: 600;
+    }
+    .text-one{
+        width: 90%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 30px;
+        color: #002099; 
+    }
+    .text-two{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 30px;
+        color: #002099;
+    }
+    .text-three{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        color: #002099;    
+    }
+    .text-one img, .text-two img, .text-three img{
+        width: 100px;
+        height: 90px;
+    }
+    .text-three h1{
+        text-align: center;
+        font-size: 100px;
+        width: 100%;
+    }
+    .text-three-span button{
+        background-color: #FFFFFF;
+        color: #676e82;
+        font-size: 15px;
+        border: 1px solid #676e82;
+        border-radius: 10px;
+        /* position: relative;
+        left: 200px; */
+    }
+    .home-image{
+        display: none;
+    }
+    .para-text{
+        width: 100%;
+        margin: 50px 9px;
+        line-height: 1.5em;
+        font-size: 15px;
+    }
+    .para-text p{
+        font-family: 'Mulish';
+        color: #212529;
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .home-register{
+        padding: 10px 10px;
+        width: 150px;
+        border-radius: 5px;
+        border: 2px solid  #002099;
+        font-size: 16px;
+        background-color: #002099;
+        color: #FFFF;
+        margin: 20px 10px;
+        font-family: "Mulish";
+        font-weight: 600
+    }
+    .home-login{
+        padding: 10px 10px;
+        width: 150px;
+        border-radius: 5px;
+        border: 1px solid #002099;
+        font-size: 16px;
+        background-color: #FFFF;
+        color: #002099;
+        margin-left: 0px;
+        font-family: "Mulish";
+        font-weight: 600;
+    }
+    .bottom-text{
+            width: 100%;
+            background-color: #002099;
+            height: 450px;
+            padding: 50px; 
+    }
+    .inner-bottom{
+        width:70%;
+        height: 350px;
+        background-color: #FFFF;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .notebook, .heart, .dollar{
+        border-left: none;
+    }
+    .notebook, .heart, .past-que{
+        border-bottom: 3px solid #002099;
+        height: 53px;
+        text-align: center;
+    }
+    .reason h2{
+        text-align: center;
+        margin-top: 50px;
+        font: "Clash Display Variable";
+        font-weight: 600;
+        font-size: 32px;
+        color:  #0B2239;
+    }
+    .category{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 50px 0px 0px 0px;
+        color: #000513;
+        font-family: 'Mulish';
+    }
+    .category-text, .practise-text, .subject-text{
+        width: 90%;
+        font-family: 'Mulish';
+        padding: 30px 30px;
+    }
+    .category-text h3, .subject-text h3, .practise-text h3{
+        font-size: 20px;
+        font-family: 'Mulish';
+        font-weight: 800;
+    }
+    .category-text p, .subject-text p, .practise-text p{
+        padding-top: 10px;
+        line-height: 1.5em;
+        font-weight: 400;
+        font-size: 15px;
+        font-family: 'Mulish';
+        color: #000513;
+        font-weight: 500;
+    }
+    .subject{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 50px 0px 0px 0px;
+        font-family: 'Mulish';
+    }
+    .subject img{
+        width: 90%;
+        margin-left: 20px;
+    }
+    .practise{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 50px 0px 0px 0px;
+        font-family: 'Mulish';
+    }
+    .bottom-texts h1{
+        color: #FFFF;
+         text-align: center;
+         margin-bottom: 20px;
+         font-family: 'Clash Display Variable';
+         font-weight: 500;
+         margin-top: 30px;
+     }
+     .in-bottom-text{
+        width: 70%;
+        height: 500px;
+        border-radius: 20px;
+        background-color: #1D3797;
+        display: flex;
+        justify-content: start;
+        flex-direction: column;
+        align-items: start;
+        margin: 0 auto;
+        color: #FFFF;
+     }
+     .in-bottom-text p{
+         font-family: 'Clash Display Variable';
+         font-weight: 500;
+     }
+     .bottom-texts{
+        width: 100%;
+        background-color: #002099;
+        height: 700px;
+        padding: 30px;  
+    }
+    .apple-store, .play-store, .tele, .whatsapp {
+        display: flex;
+        color: #FFFF;
+        font-size: 20px;
+        padding: 10px ;
+    }
+    .apple-store, .play-store, .tele, .whatsapp{
+        border-left: none;
+    }
+    .apple-store, .play-store, .tele, .web{
+        border-bottom: 4px solid #FFFF;
+        height: 400px; 
+    }
+    .text-icons{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 100px;
+        font-size: 15px;
+    }
+    .text-icons a{
+        line-height: normal;
+        text-align: end;
+        color: #FFFF;
+        font-size: 18px;
+        text-decoration: underline;
+    }
+    .examsAfrica{
+        text-align: center;
+        margin-top: 100px;
+    }
+    .examsAfrica h1{
+        width: 100%;
+        margin: auto;
+        padding-bottom: 10px;
+        color: #0b2239;
+        font-size: 35px;
+        font-family: 'Clash Display Variable';
+        font-weight: 620;
+    }
+    .nice img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        margin: auto;
+        padding-top: 50px;
+    }
+    .footer{
+        height: 550px;
+        background-color: #00070F;
+        margin-top: 100px;
+        color: #FFFF;
+    }
+    .footer-text{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+       padding-top: 50px;
+       width: 100%;
+    }
+    .logo-text{
+        text-align: center;
+     }
+     .logo-text p{
+         width: 90%;
+         font-size: 15px;
+         margin: auto;
+         line-height: 1.5em;
+     }
+     .socials{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 30px 500px;
+        margin: auto;
+        padding-top: 20px;
+        width: 50%;
+    }
+    .copyright{
+        background-color: #002099;
+        height: 80px;
+        color: #FFFF;
+        padding: 20px 30px;
+        width: 100%;
+        font-size: 13px;
+    }
+}
